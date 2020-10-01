@@ -1,0 +1,31 @@
+import time
+print("Hello!")
+time.sleep(1)
+print("Im Itachi Uchiha!")
+time.sleep(1)
+print("Thanks For Using My Email Analyser!")
+time.sleep(1)
+print("Brought to you by TENTEN KA TANTAN HAI PVT LTD")
+time.sleep(3)
+print("Enter Email To Analyse!")
+email=input()
+l=email.find("@")
+id= email[:l:]
+domain=email[l+1::]
+time.sleep(1)
+print("Summoning Ten Tails......")
+time.sleep(2)
+print("Summoning Successful.....")
+time.sleep(2)
+print("Ten Tails Meri Biwi Ko Leke Bhag Gaya!.....")
+time.sleep(1)
+print("Press \"F\" To Pay Respect.......")
+respect=input()
+if respect == "F":
+	print("Thanks __/\__")
+	print(f"The Id Of Email Is {id}")
+	print(f"The Domain Is {domain}")
+else:
+	print("Bhag Laude Yaha Meri Biwi bhag gayi \n aur tmko email ki padi h!")
+	time.sleep(1)
+	print(f" Le Email Id hai {id} aur Domain is {domain} daal le gand me!")
