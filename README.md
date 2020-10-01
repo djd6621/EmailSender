@@ -1,5 +1,5 @@
 # EmailSender
-Python program that can send an email to one email to another or a list of emails.
+Python program that can send an email from one email to another or a list of emails.
 
 # How to Use
 This program is ran using the command line. You will need to have Python installed to your computer with the PATH configurated. 
