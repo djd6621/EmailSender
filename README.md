@@ -14,12 +14,9 @@ python send_emails.py [1] [2] [3] [4]
 4 - A text file with the first line being the subject text and the rest of the lines being the message. 
 
 # Example - File
-emails.txt -> joe@gmail.com
-              bob@gmail.com
+emails.txt -> An exmaple file is given.
 
-message.txt -> Job application
-               Hello my name is sally and I recently applied to...
-               Please email back at...
+message.txt -> An exmaple file is given.
 
 Command: python send_emails.py myemail@gmail.com emails.txt file message.txt
 
