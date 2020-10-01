@@ -9,6 +9,8 @@ python send_emails.py [1] [2] [3] [4]
 
 The [] are not included in the command!
 
+To send an email from a gmail account, you must lower the security protocols on it. This is done by going to security and allowing other apps to access your email i.e. Python.
+
 # Parameters
 1 - email_to_send_from
 2 - either a txt file of emails on each line or a single email to recieve the email
