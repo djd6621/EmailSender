@@ -7,6 +7,8 @@ This program is ran using the command line. You will need to have Python install
 From command line run the follow command:
 python send_emails.py [1] [2] [3] [4]
 
+The [] are not included in the command!
+
 # Parameters
 1 - email_to_send_from
 2 - either a txt file of emails on each line or a single email to recieve the email
