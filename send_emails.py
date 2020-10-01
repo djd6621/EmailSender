@@ -25,22 +25,18 @@ def file_emails(email, password, file, subject, msg):
 
     emails = []
     
-    # keeps track of file line
-    counter = 1
     try:
 
         with open("emails.txt") as file:
             for line in file:
                 line = line.strip()
                 emails.append(line)
-                counter += 1
     except FileNotFoundError:
         print("Email file not found.")
 
     print("Sending message to emails in file...")
     for i in range(len(emails)):
         single_email(email, password, emails[i], subject, msg)    
-        print("Email sent to {0}".format(emails[i]))
 
 
 """
@@ -60,7 +56,7 @@ def single_email(email, password, reciever, subject, msg):
             server.login(email, password)
             msg = message_creation(email, reciever, subject, msg)
             server.send_message(msg)
-            print("Email sent.")
+            print("Email sent to {0}".format(reciever))
     except:
         print("Error occurred attempting to send email. Attempt to fix email, password, or reciever.")
 

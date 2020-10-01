@@ -13,8 +13,7 @@ def convert_message_file(msg_file):
         subject = file.readline().strip()
 
         for line in file:
-            line = line.strip()
-            message += line + " "
+            message += line
 
         return subject, message
             
